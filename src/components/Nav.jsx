@@ -58,7 +58,7 @@ class Nav extends Component {
 								className="menu-item"
 								onClick={this.setMenuState}>
 								<a
-									href="/harsha-vykunta-resume.pdf"
+									href="/resume.pdf"
 									target="_blank"
 									rel="noreferrer noopener">
 									Resume
