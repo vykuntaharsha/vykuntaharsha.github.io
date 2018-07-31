@@ -1,0 +1,103 @@
+.profile,
+.experience {
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+}
+
+.about img {
+	margin: 2rem auto;
+	width: 70%;
+	object-fit: cover;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.profile-description {
+	padding: 1rem;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.about i {
+	font-size: 2rem;
+	vertical-align: bottom;
+}
+
+.education {
+	margin-bottom: 3rem;
+}
+
+.company,
+.school,
+.awards {
+	margin: 2rem 0;
+	text-align: center;
+}
+
+.about h1 {
+	text-align: center;
+}
+
+.about h2 {
+	margin-bottom: 0;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.company > p,
+.school > p {
+	margin-top: 0.2rem;
+	text-align: center;
+}
+
+.about .logo {
+	width: 2rem;
+	margin: 0;
+	vertical-align: middle;
+	box-shadow: none;
+}
+
+.experience {
+	background-color: #cecece;
+}
+
+@media (min-width: 700px) {
+	.profile,
+	.experience {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.profile {
+		align-items: center;
+	}
+
+	.about img {
+		margin: 5rem;
+		width: 25vw;
+	}
+
+	.education,
+	.companies {
+		margin: 5rem;
+		width: calc(50vw - 10rem);
+	}
+
+	.about .logo {
+		width: 2rem;
+		height: 2rem;
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	.experience h1,
+	.about h2,
+	.experience p {
+		text-align: left;
+	}
+
+	.awards img {
+		width: 50vw;
+	}
+}

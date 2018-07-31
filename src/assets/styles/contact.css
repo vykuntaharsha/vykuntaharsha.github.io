@@ -1,0 +1,99 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact-info {
+	text-align: center;
+	margin: 1rem 0;
+}
+
+.contact p > i {
+	font-size: 1.5rem;
+}
+
+.contact a > i {
+	font-size: 2rem;
+	margin: 0 0.5rem;
+	vertical-align: middle;
+	transition: 0.4s ease-in-out;
+}
+
+.contact a > i:hover {
+	color: grey;
+}
+
+.contact > .content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.contact form {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	padding: 2rem;
+	margin: 1rem 0;
+	background-color: rgba(214, 214, 214, 0.2);
+}
+.contact label {
+	margin: 1rem 0;
+}
+
+.contact input,
+.contact textarea {
+	font-size: 1rem;
+	display: block;
+	width: 60vw;
+	border: none;
+	border-radius: 5px;
+	padding: 0.5rem 1rem;
+	box-shadow: inset 0 0 1px;
+}
+
+.contact button {
+	font-size: 1rem;
+	width: 50%;
+	border-radius: 30px;
+	background-color: #0c0c0c;
+	border: none;
+	padding: 0.75rem 1.5rem;
+	margin: auto;
+	color: #fff;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+.contact button:hover {
+	background-color: grey;
+}
+
+@media (min-width: 700px) {
+	.contact {
+		justify-content: center;
+	}
+	.contact > .content {
+		width: 80vw;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: flex-start;
+	}
+
+	.contact h1 {
+		font-size: 3rem;
+	}
+
+	.contact-info {
+		text-align: left;
+		font-size: 1.2rem;
+	}
+
+	.contact input,
+	.contact textarea {
+		width: 30vw;
+	}
+}

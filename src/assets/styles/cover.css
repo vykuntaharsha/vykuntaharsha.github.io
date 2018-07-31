@@ -1,0 +1,85 @@
+.intro {
+	height: calc(100vh - 3rem);
+	color: #fff;
+	display: grid;
+	grid-gap: 1rem;
+}
+
+.cover-parallax > img {
+	z-index: -1;
+}
+
+.particles {
+	top: 5rem;
+}
+
+.cover-parallax {
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.intro > h2 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 3rem;
+	margin: 0;
+	align-self: end;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro span {
+	justify-self: center;
+	align-self: start;
+	font-weight: 300;
+	font-size: 1.5rem;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.my-work-link {
+	text-align: center;
+}
+
+.typer {
+	display: inline;
+}
+
+.typer > span {
+	color: skyblue;
+}
+
+.intro > a {
+	align-self: center;
+	justify-self: center;
+	padding: 1rem 2rem;
+	border: 2px solid #fff;
+	border-radius: 30px;
+	color: #fff;
+	transition: 0.4s ease-in-out;
+	cursor: pointer;
+	font-weight: 500;
+	z-index: 2;
+}
+
+.intro > a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.particles {
+	position: absolute;
+	overflow: hidden;
+	z-index: 1;
+}
+
+@media (min-width: 900px) {
+	.intro > h2 {
+		text-align: center;
+		font-size: 5rem;
+	}
+
+	.intro span {
+		font-size: 2rem;
+	}
+}
