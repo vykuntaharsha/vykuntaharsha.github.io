@@ -11,7 +11,7 @@ ReactGA.initialize('UA-123158899-1');
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
-	<Router history={createBrowserHistory()}>
+	<Router history={createBrowserHistory()} basename={process.env.PUBLIC_URL}>
 		<App />
 	</Router>,
 	document.getElementById('root')
