@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from '../assets/media/plain-logo.png';
-import resume from '../assets/media/harsha-vykunta-resume.pdf';
 import '../assets/styles/nav.css';
 import { Link, NavLink } from 'react-router-dom';
 
@@ -59,7 +58,7 @@ class Nav extends Component {
 								className="menu-item"
 								onClick={this.setMenuState}>
 								<a
-									href={resume}
+									href="/harsha-vykunta-resume.pdf"
 									target="_blank"
 									rel="noreferrer noopener">
 									Resume
