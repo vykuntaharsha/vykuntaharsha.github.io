@@ -1,0 +1,10 @@
+.thanks {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5rem;
+	align-items: center;
+}
+
+.thanks > span {
+	font-size: 5rem;
+}

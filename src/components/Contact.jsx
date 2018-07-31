@@ -34,7 +34,6 @@ const Contact = () => {
 				<form
 					method="POST"
 					action="//formspree.io/bobbyvykunta@gmail.com"
-					target="_blank"
 					rel="noreferrer noopener">
 					<label for="name">
 						Name:
@@ -62,11 +61,7 @@ const Contact = () => {
 							placeholder="Your message"
 						/>
 					</label>
-					<input
-						type="hidden"
-						name="_next"
-						value="localhost:3000/thanks"
-					/>
+					<input type="hidden" name="_next" value="thanks" />
 					<input
 						type="text"
 						name="_gotcha"
