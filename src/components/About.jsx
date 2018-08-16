@@ -1,6 +1,6 @@
 import React from 'react';
 import teachingAssistant from '../assets/media/teaching-assistant.jpg';
-import profile from '../assets/media/profile.jpg';
+import LinkedInBadge from './LinkedInBadge';
 import '../assets/styles/about.css';
 import neu from '../assets/media/northeastern-university.png';
 import nit from '../assets/media/nit.png';
@@ -10,7 +10,7 @@ const About = () => {
 	return (
 		<main className="about">
 			<div className="profile">
-				<img src={profile} alt="profile-img" />
+				<LinkedInBadge />
 				<div className="profile-description">
 					<h1>About</h1>
 					<p>

@@ -1,0 +1,12 @@
+.typer-holder {
+	min-height: 100px;
+}
+
+.typer > span {
+	color: #068595;
+}
+
+.typer > span > span {
+	color: #d5d5d5;
+	font-weight: lighter;
+}

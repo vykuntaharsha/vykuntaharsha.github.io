@@ -4,7 +4,6 @@ import Type from './Type';
 import { Parallax } from 'react-parallax';
 import { Link } from 'react-router-dom';
 import Particles from 'react-particles-js';
-import 'react-typist/dist/Typist.css';
 import '../assets/styles/cover.css';
 
 const Cover = () => {
