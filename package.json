@@ -1,28 +1,33 @@
 {
-	"name": "portfolio",
-	"version": "0.1.0",
-	"private": true,
-	"dependencies": {
-		"ajv": "^6.5.2",
-		"gh-pages": "^1.2.0",
-		"react": "^16.4.1",
-		"react-dom": "^16.4.1",
-		"react-ga": "^2.5.3",
-		"react-parallax": "^1.8.0",
-		"react-particles-js": "^2.2.0",
-		"react-router": "^4.3.1",
-		"react-router-dom": "^4.3.1",
-		"react-router-hash-link": "^1.2.0",
-		"react-scripts": "1.1.4",
-		"react-typing-animation": "^1.4.0"
-	},
-	"scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -b master -d build",
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject"
-	},
-	"homepage": "https://vykuntaharsha.github.io"
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
+    "react-ga": "^2.5.3",
+    "react-parallax": "^1.8.0",
+    "react-particles-js": "^2.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-hash-link": "^1.2.0",
+    "react-scripts": "^2.1.1",
+    "react-typist": "^2.0.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "https://vykuntaharsha.github.io",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
