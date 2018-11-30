@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/contact.css";
+import LinkedInBadge from "./LinkedInBadge";
 
 const Contact = () => {
   return (
@@ -9,15 +10,8 @@ const Contact = () => {
       </div>
       <div className="content">
         <div className="contact-info">
-          <h2>Harsha Vykunta</h2>
-          <p>
-            Let's grab a coffee, share our interests and see how we can
-            collaborate to build amazing things in future.
-          </p>
-          <p>
-            <i className="icon ion-md-pin" /> Seattle, WA.
-          </p>
-          <span>Connect with me:</span>
+          <LinkedInBadge />
+          {/* <span>Connect with me:</span>
           <a
             href="https://www.linkedin.com/in/harsha-vykunta/"
             target="_blank"
@@ -31,7 +25,7 @@ const Contact = () => {
             rel="noopener noreferrer"
           >
             <i className="icon ion-logo-facebook" />
-          </a>
+          </a> */}
         </div>
         <form
           method="POST"
@@ -60,6 +54,13 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
       </div>
+      <p>
+        Let's grab a coffee, share our interests and see how we can collaborate
+        to build amazing things in future.
+      </p>
+      <p>
+        <i className="icon ion-md-pin" /> Seattle, WA.
+      </p>
     </main>
   );
 };
