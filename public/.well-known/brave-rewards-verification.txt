@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: harshavykunta.com
-Token: b5213074cf6bf32e3ab50568adabd4766676670d961dea895dcffa4b4e62a71d
+Token: 48c48d9092ac9a00be5bffaaeec6e31361bae9b1a702f70b8f93e463b2651df5
